@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52efe690285fb0a438393a5c3b462277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roamChangeDirFloat: 2
 --- !u!114 &4156957527688630781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingHealth: 3
   deathVFXPrefab: {fileID: 1575635973625061463, guid: dc0e94905fc0e1d4eb5cea07f4124c74, type: 3}
+  knockBackThrust: 15
 --- !u!114 &2396691613563128562
 MonoBehaviour:
   m_ObjectHideFlags: 0
