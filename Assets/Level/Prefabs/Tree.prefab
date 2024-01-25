@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 7031408411139287217}
   - component: {fileID: 7813658962901564633}
   - component: {fileID: 6539044787599802960}
+  - component: {fileID: 7837270073860123743}
+  - component: {fileID: 3060696228449308596}
+  - component: {fileID: 2274603254161071716}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -120,3 +123,64 @@ CapsuleCollider2D:
   m_Offset: {x: 0.018307382, y: -0.068141915}
   m_Size: {x: 1.5282551, y: 0.80855817}
   m_Direction: 1
+--- !u!58 &7837270073860123743
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540310609977603902}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.7381377}
+  serializedVersion: 2
+  m_Radius: 1.4618623
+--- !u!114 &3060696228449308596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540310609977603902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a842d55b6dcbc4b86eac96db788212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparencyAmount: 0.8
+  fadeTime: 0.4
+--- !u!114 &2274603254161071716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540310609977603902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45775f772a5cf5a41a3891b90b65109a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

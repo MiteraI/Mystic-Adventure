@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4973788965328993067}
   - component: {fileID: 3041904759689410506}
   - component: {fileID: 6286500088448394026}
+  - component: {fileID: 6282439204884358458}
+  - component: {fileID: 5836661109003460883}
+  - component: {fileID: 8513980337922282260}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -120,3 +123,64 @@ CapsuleCollider2D:
   m_Offset: {x: 0.018307853, y: -0.10544619}
   m_Size: {x: 0.9035846, y: 0.44316944}
   m_Direction: 1
+--- !u!58 &6282439204884358458
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127309077326946654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.036460042, y: 1.3159043}
+  serializedVersion: 2
+  m_Radius: 0.7808083
+--- !u!114 &5836661109003460883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127309077326946654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a842d55b6dcbc4b86eac96db788212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparencyAmount: 0.8
+  fadeTime: 0.4
+--- !u!114 &8513980337922282260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127309077326946654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45775f772a5cf5a41a3891b90b65109a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
