@@ -167,12 +167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-<<<<<<< HEAD:Assets/Level/Prefabs/Enemy/Blue Slime/Blue Slime.prefab
+Assets/Level/Prefabs/Enemy/Blue Slime/Blue Slime.prefab
   detectionRadius: 5
   attackRange: 1.5
   enemyType: 1
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428:Assets/Level/Prefabs/Blue Slime.prefab
 --- !u!114 &4156957527688630781
 MonoBehaviour:
   m_ObjectHideFlags: 0

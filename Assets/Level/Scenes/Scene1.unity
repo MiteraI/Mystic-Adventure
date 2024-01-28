@@ -693,19 +693,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: -5.74
       objectReference: {fileID: 0}
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.65
-=======
-      value: 1.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
       objectReference: {fileID: 0}
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -747,13 +739,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 8195133610585142454, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: enemyType
       value: 1
       objectReference: {fileID: 0}
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1350,11 +1339,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
   - {fileID: 2100000, guid: 3979a7545d7a78946b709fa0e659f0f6, type: 2}
-=======
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7902,11 +7887,7 @@ GameObject:
   - component: {fileID: 1899597768}
   - component: {fileID: 1899597767}
   m_Layer: 5
-<<<<<<< HEAD
   m_Name: FadeTransition
-=======
-  m_Name: Image
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7967,11 +7948,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-<<<<<<< HEAD
   m_SizeDelta: {x: 0, y: 0}
-=======
-  m_SizeDelta: {x: -1920, y: -820}
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1929469667
 GameObject:
@@ -8058,11 +8035,7 @@ GameObject:
   - component: {fileID: 1953779342}
   m_Layer: 0
   m_Name: Player
-<<<<<<< HEAD
   m_TagString: Player
-=======
-  m_TagString: Untagged
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13243,11 +13216,7 @@ Transform:
   m_GameObject: {fileID: 2097134672}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 1.6425506, y: 0.046609998, z: -10}
-=======
-  m_LocalPosition: {x: 1.64, y: -0.22, z: -10}
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17464,7 +17433,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!1001 &790759524246826158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17530,8 +17498,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65c995fe78bad1c4bac9946d6778745d, type: 3}
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
 --- !u!4 &1307252526932514194
 Transform:
   m_ObjectHideFlags: 0
@@ -17749,7 +17715,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fba3a44c09801b459cf9f718d815082, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &2683233665481598031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17807,8 +17772,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d07a3ab46a0afbf4faefe608f7ce6584, type: 3}
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
 --- !u!114 &3164017683271284486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17818,11 +17781,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 754952165644303569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 8df0eba774bbe92449165eaff78edc04, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: f086daed00e5d6e4091a4a84998e4274, type: 3}
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_Name: 
   m_EditorClassIdentifier: 
   transitionName: EEntry
@@ -17997,13 +17956,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8150091961001284544}
-<<<<<<< HEAD
   - component: {fileID: 1635385868415186114}
   - component: {fileID: 7007779050940854016}
-=======
-  - component: {fileID: 7007779050940854016}
-  - component: {fileID: 1635385868415186114}
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
   m_Layer: 0
   m_Name: AreaExit
   m_TagString: Untagged
@@ -22826,19 +22780,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: -5.25
       objectReference: {fileID: 0}
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
-=======
-      value: 11.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.66
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
       objectReference: {fileID: 0}
     - target: {fileID: 4001274080219909446, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22880,13 +22826,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 8195133610585142454, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: enemyType
       value: 1
       objectReference: {fileID: 0}
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22907,8 +22850,5 @@ SceneRoots:
   - {fileID: 1929469670}
   - {fileID: 417814747}
   - {fileID: 6344109726418200598}
-<<<<<<< HEAD
   - {fileID: 790759524246826158}
   - {fileID: 2683233665481598031}
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
