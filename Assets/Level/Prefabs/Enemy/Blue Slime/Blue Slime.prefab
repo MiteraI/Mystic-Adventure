@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-Assets/Level/Prefabs/Enemy/Blue Slime/Blue Slime.prefab
   detectionRadius: 5
   attackRange: 1.5
   enemyType: 1
