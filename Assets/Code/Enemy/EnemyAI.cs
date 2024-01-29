@@ -4,7 +4,6 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private float roamChangeDirFloat = 2f;
-<<<<<<< HEAD
     [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private float attackRange = 1.5f;
     private enum State
@@ -12,12 +11,6 @@ public class EnemyAI : MonoBehaviour
         Roaming,
         Chasing,
         Attacking
-=======
-
-    private enum State
-    {
-        Roaming
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
     }
 
     private State state;
@@ -26,10 +19,7 @@ public class EnemyAI : MonoBehaviour
     private Animator enemyAnimator;
     private bool isChasing = true;
 
-<<<<<<< HEAD
     [SerializeField] private EnemyType enemyType;
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
     private void Awake()
     {
         enemyPathfinding = GetComponent<EnemyPathfinding>();
@@ -39,20 +29,13 @@ public class EnemyAI : MonoBehaviour
 
     private void Start()
     {
-<<<<<<< HEAD
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-=======
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
         StartCoroutine(RoamingRoutine());
     }
 
     private IEnumerator RoamingRoutine()
     {
-<<<<<<< HEAD
         while (true)
-=======
-        while (state == State.Roaming)
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
         {
             if (Vector2.Distance(transform.position, playerTransform.position) < detectionRadius)
             {
@@ -64,7 +47,6 @@ public class EnemyAI : MonoBehaviour
             Vector2 roamPosition = GetRoamingPosition();
             enemyPathfinding.MoveTo(roamPosition);
             yield return new WaitForSeconds(roamChangeDirFloat);
-<<<<<<< HEAD
         }
 
         StartCoroutine(ChasingRoutine());
@@ -146,15 +128,6 @@ public class EnemyAI : MonoBehaviour
             }
         }
     }
-
-
-
-
-=======
-        }
-    }
-
->>>>>>> 0953a54301447b29a5f66309b92330b120e19428
     private Vector2 GetRoamingPosition()
     {
         return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;

@@ -5428,7 +5428,7 @@ GameObject:
   - component: {fileID: 1953779342}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5545,7 +5545,7 @@ MonoBehaviour:
   moveSpeed: 4
   dashSpeed: 4
   myTrailRenderer: {fileID: 448404026}
-  weaponCollider: {fileID: 0}
+  weaponCollider: {fileID: 176252927}
 --- !u!95 &1953779340
 Animator:
   serializedVersion: 5
