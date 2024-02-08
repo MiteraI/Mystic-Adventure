@@ -9152,6 +9152,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 5417343713426831473, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5417343713426831473, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852814712391357393, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.6423467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852814712391357393, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.046600014
+      objectReference: {fileID: 0}
     - target: {fileID: 7820354646659094040, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -33773,10 +33789,6 @@ PrefabInstance:
     - target: {fileID: 5053348876970602183, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
       propertyPath: m_Name
       value: Blue Slime
-      objectReference: {fileID: 0}
-    - target: {fileID: 5053348876970602183, guid: 56cdf9a7394ffaa44a2e0c5cd5ae90fc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3037976661448535345}
   - component: {fileID: 1059100345653664208}
   - component: {fileID: 5627300097467644872}
+  - component: {fileID: 4917267556059019909}
   - component: {fileID: 2435384428318446667}
   - component: {fileID: 2291151600530295710}
   m_Layer: 0
@@ -132,9 +133,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-  detectionRadius: 5
   attackRange: 1.5
-  enemyType: 0
+  enemyType: {fileID: 4917267556059019909}
+  attackCooldown: 2
+  stopMovingWhileAttacking: 0
 --- !u!114 &8251729845473460241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +192,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlashMat: {fileID: 2100000, guid: 51806acbc15be634cacb274ecb1a77e8, type: 2}
   restoreDefaultMatTime: 0.2
+--- !u!114 &4917267556059019909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826693257503648151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbffa4fd1d99f4b4ab5c678d482fb4bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &2435384428318446667
 BoxCollider2D:
   m_ObjectHideFlags: 0
