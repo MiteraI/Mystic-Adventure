@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 5469371082557010040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.337, y: -0.308, z: 0}
+  m_LocalPosition: {x: 0.366, y: -0.026, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponInfo: {fileID: 11400000, guid: 4a30053021681074e80c3fe727b274da, type: 2}
-  magicLaser: {fileID: 1316757790536685568, guid: 1bd4d993120a07a419ec17a4faf79046, type: 3}
+  magicLaser: {fileID: 5339696029480985576, guid: 1bd4d993120a07a419ec17a4faf79046, type: 3}
   magicLaserSpawnPoint: {fileID: 3175492090177076741}
 --- !u!212 &6474192357492283011
 SpriteRenderer:
