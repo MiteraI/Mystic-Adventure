@@ -21,4 +21,14 @@ public class EconomyManager : Singleton<EconomyManager>
 
         goldText.text = currentGold.ToString("D3");
     }
+
+    public void ResetEconomy()
+    {
+        currentGold = 0;
+    }
+
+    public int GetCurrentGold()
+    {
+		return currentGold;
+	}
 }

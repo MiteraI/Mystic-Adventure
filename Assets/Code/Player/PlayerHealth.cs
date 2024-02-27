@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : Singleton<PlayerHealth>
@@ -64,12 +65,19 @@ public class PlayerHealth : Singleton<PlayerHealth>
         CheckIfPlayerDeath();
     }
 
+    public void ResetHealth()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthSlider();
+    }
+
     private void CheckIfPlayerDeath()
     {
         if (currentHealth <= 0)
         {
             currentHealth = 0;
-            Debug.Log("Player Death");
+			UIFade.Instance.FadeToClear();
+			SceneManager.LoadScene(6);
         }
     }
 
