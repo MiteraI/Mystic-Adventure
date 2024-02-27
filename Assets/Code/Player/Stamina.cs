@@ -43,6 +43,11 @@ public class Stamina : Singleton<Stamina>
         UpdateStaminaImages();
     }
 
+    public void ResetStamina()
+    {
+        CurrentStamina = maxStamina;
+    }
+
     private IEnumerator RefreshStaminaRoutine()
     {
         while (true)
