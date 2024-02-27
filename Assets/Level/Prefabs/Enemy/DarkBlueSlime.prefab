@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6766899430820111182}
   - component: {fileID: 3690510770261937270}
   - component: {fileID: 8158477399353189339}
+  - component: {fileID: 5213578969713489334}
   - component: {fileID: 1629695400414486491}
   m_Layer: 0
   m_Name: DarkBlueSlime
@@ -225,6 +226,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab05981f1052a94458e7e1426508e02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5213578969713489334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7449441604045951059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f01db33246e8bc4c8b2974dfd3c0219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 2577486110857903830, guid: 8d1a9cd8dbb36e6488a6b4c2f749af7a, type: 3}
+  healthGlobe: {fileID: 2577486110857903830, guid: dd2634653dfc5bc44823be6f7615b2b0, type: 3}
+  staminaGlobe: {fileID: 2577486110857903830, guid: f42ad280a4b592944975eaf7fecf81ba, type: 3}
 --- !u!61 &1629695400414486491
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -5,29 +5,23 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private float roamChangeDirFloat = 2f;
-    [SerializeField] private float attackRange = 0f;
+    [SerializeField] private float attackRange = 0.1f;
+    [SerializeField] private float chaseRange = 3f;
+    [SerializeField] private float chaseSpeed = 3f;
     [SerializeField] private MonoBehaviour enemyType;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private bool stopMovingWhileAttacking = false;
 
     private bool canAttack = true;
 
-    private enum State
-    {
-        Roaming,
-        Attacking
-    }
-
     private Vector2 roamPosition;
     private float timeRoaming = 0f;
 
-    private State state;
-    private EnemyPathfinding enemyPathfinding;
+    private EnemyPathfinding enemyPathfinding;  
 
     private void Awake()
     {
         enemyPathfinding = GetComponent<EnemyPathfinding>();
-        state = State.Roaming;
     }
 
     private void Start()
@@ -42,29 +36,27 @@ public class EnemyAI : MonoBehaviour
 
     private void MovementStateControl()
     {
-        switch (state)
-        {
-            default:
-            case State.Roaming:
-                Roaming();
-                break;
+        var distanceToPlayer = Vector2.Distance(transform.position, PlayerController.Instance.transform.position);
 
-            case State.Attacking:
-                Attacking();
-                break;
-        }
+        if (distanceToPlayer < attackRange)
+        {
+             Attacking();
+        } else if (distanceToPlayer < chaseRange)
+        {
+            Chasing();
+		} else
+        {
+			Roaming();
+		}
     }
 
     private void Roaming()
     {
         timeRoaming += Time.deltaTime;
 
-        enemyPathfinding.MoveTo(roamPosition);
+        FlipSprite(roamPosition);
 
-        if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) < attackRange)
-        {
-            state = State.Attacking;
-        }
+        enemyPathfinding.MoveTo(roamPosition);
 
         if (timeRoaming > roamChangeDirFloat)
         {
@@ -74,11 +66,7 @@ public class EnemyAI : MonoBehaviour
 
     private void Attacking()
     {
-        if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) > attackRange)
-        {
-            state = State.Roaming;
-        }
-
+   
         if (attackRange != 0 && canAttack)
         {
 
@@ -96,6 +84,26 @@ public class EnemyAI : MonoBehaviour
 
             StartCoroutine(AttackCooldownRoutine());
         }
+    }
+
+    private void Chasing()
+    {
+        var playerPosition = PlayerController.Instance.transform.position;
+        FlipSprite(playerPosition);
+		transform.position = Vector2.MoveTowards(transform.position, playerPosition, chaseSpeed * Time.deltaTime);
+	}
+
+    private void FlipSprite(Vector3 target)
+    {
+        // Flip the sprite based on the direction of the player
+        if (target.x < transform.position.x)
+        {
+			transform.localScale = new Vector3(1, 1, 1);
+		}
+		else
+        {
+			transform.localScale = new Vector3(-1, 1, 1);
+		}
     }
 
     private IEnumerator AttackCooldownRoutine()
