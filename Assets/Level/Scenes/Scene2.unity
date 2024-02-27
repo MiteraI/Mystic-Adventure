@@ -9033,6 +9033,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8158975075049224501, guid: 41c03a464fa526547bea8e7eac60124f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158975075049224501, guid: 41c03a464fa526547bea8e7eac60124f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9162,11 +9170,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5852814712391357393, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6423467
+      value: 1.64
       objectReference: {fileID: 0}
     - target: {fileID: 5852814712391357393, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.046600014
+      value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 7820354646659094040, guid: 204d336473f92e34eadf5efc1e1a0737, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14297,13 +14305,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5826693257503648151, guid: d07a3ab46a0afbf4faefe608f7ce6584, type: 3}
+      insertIndex: 9
+      addedObject: {fileID: 1382562296}
   m_SourcePrefab: {fileID: 100100000, guid: d07a3ab46a0afbf4faefe608f7ce6584, type: 3}
 --- !u!4 &1382562294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5170899168249379278, guid: d07a3ab46a0afbf4faefe608f7ce6584, type: 3}
   m_PrefabInstance: {fileID: 1382562293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1382562295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5826693257503648151, guid: d07a3ab46a0afbf4faefe608f7ce6584, type: 3}
+  m_PrefabInstance: {fileID: 1382562293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1382562296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382562295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f01db33246e8bc4c8b2974dfd3c0219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 2577486110857903830, guid: 8d1a9cd8dbb36e6488a6b4c2f749af7a, type: 3}
+  healthGlobe: {fileID: 2577486110857903830, guid: dd2634653dfc5bc44823be6f7615b2b0, type: 3}
+  staminaGlobe: {fileID: 2577486110857903830, guid: f42ad280a4b592944975eaf7fecf81ba, type: 3}
 --- !u!1001 &1417045774
 PrefabInstance:
   m_ObjectHideFlags: 0
