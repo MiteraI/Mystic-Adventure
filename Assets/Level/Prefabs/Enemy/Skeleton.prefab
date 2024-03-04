@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1059100345653664208}
   - component: {fileID: 5627300097467644872}
   - component: {fileID: 4917267556059019909}
+  - component: {fileID: 9026677229646350941}
   - component: {fileID: 2435384428318446667}
   - component: {fileID: 2291151600530295710}
   m_Layer: 0
@@ -134,6 +135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
   attackRange: 1.5
+  chaseRange: 3
+  chaseSpeed: 3
   enemyType: {fileID: 4917267556059019909}
   attackCooldown: 2
   stopMovingWhileAttacking: 0
@@ -204,6 +207,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbffa4fd1d99f4b4ab5c678d482fb4bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9026677229646350941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5826693257503648151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f01db33246e8bc4c8b2974dfd3c0219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 2577486110857903830, guid: 8d1a9cd8dbb36e6488a6b4c2f749af7a, type: 3}
+  healthGlobe: {fileID: 2577486110857903830, guid: dd2634653dfc5bc44823be6f7615b2b0, type: 3}
+  staminaGlobe: {fileID: 2577486110857903830, guid: f42ad280a4b592944975eaf7fecf81ba, type: 3}
 --- !u!61 &2435384428318446667
 BoxCollider2D:
   m_ObjectHideFlags: 0

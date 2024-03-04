@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour
 			EndDialogue();
 			return;
 		}
-
+		Debug.Log("DisplayNextSentence");
 		string sentence = sentences.Dequeue();
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(sentence));
