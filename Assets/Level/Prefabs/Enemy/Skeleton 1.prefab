@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 2435384428318446667}
   - component: {fileID: 2291151600530295710}
   m_Layer: 0
-  m_Name: Skeleton
+  m_Name: Skeleton 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,13 +35,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5826693257503648151}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.026167953, y: 0.026167953, z: -0.0006852313, w: 0.9993148}
   m_LocalPosition: {x: 4.83, y: -0.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3, y: 3, z: 0}
 --- !u!212 &2891338770502281800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -133,12 +133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52efe690285fb0a438393a5c3b462277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roamChangeDirFloat: 2
-  attackRange: 1.5
-  chaseRange: 3
-  chaseSpeed: 3
+  roamChangeDirFloat: 4
+  attackRange: 3
+  chaseRange: 6
+  chaseSpeed: 6
   enemyType: {fileID: 4917267556059019909}
-  attackCooldown: 2
+  attackCooldown: 1
   stopMovingWhileAttacking: 0
 --- !u!114 &8251729845473460241
 MonoBehaviour:
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7361bfcdd332c7419689e74bc9de139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 4
 --- !u!114 &3037976661448535345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,9 +165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 926f7af5302f011498a3c6e6e93a8c9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  startingHealth: 1
   deathVFXPrefab: {fileID: 1575635973625061463, guid: 45431d9368b0e1942b59b1156c47b44b, type: 3}
-  knockBackThrust: 15
+  knockBackThrust: 10
 --- !u!114 &1059100345653664208
 MonoBehaviour:
   m_ObjectHideFlags: 0
