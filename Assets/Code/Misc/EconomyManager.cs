@@ -25,10 +25,17 @@ public class EconomyManager : Singleton<EconomyManager>
     public void ResetEconomy()
     {
         currentGold = 0;
+        goldText.text = currentGold.ToString("D3");
     }
 
     public int GetCurrentGold()
     {
 		return currentGold;
 	}
+
+    public void DecreaseCoin(int amount)
+    {
+        currentGold -= amount;
+        goldText.text = currentGold.ToString("D3");
+    }
 }

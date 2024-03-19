@@ -16,10 +16,10 @@ public class AreaExit : MonoBehaviour
     private Dictionary<string, int> coinsRequiredPerScene = new Dictionary<string, int>()
     {
         { "Scene1", 1 },
-        { "Scene2", 0 },
-        { "Scene3", 0 },
-        { "Scene4", 0 },
-        { "Scene5", 0 },
+        { "Scene2", 2 },
+        { "Scene3", 2 },
+        { "Scene4", 2 },
+        { "Scene5", 5 },
         // Add more scenes and coin requirements as needed
     };
 
